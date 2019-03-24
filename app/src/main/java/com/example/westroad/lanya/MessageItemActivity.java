@@ -29,7 +29,7 @@ public class MessageItemActivity extends AppCompatActivity {
         s= intent.getIntExtra("Name",1);
         messageItem= (TextView) findViewById(R.id.messageItem);
         switch(s){
-            case R.id.usermsg:messageItem.setText("测试用账号\n账号：1000000\n昵称：hxws982nhjd");break;
+            case R.id.usermsg:messageItem.setText("测试用账号\n账号：1000000\n昵称：hhgtiughh");break;
             case R.id.fewtips:imageView.setVisibility(View.VISIBLE);messageItem.setText(getString(R.string.TIPS));break;
             case R.id.help:messageItem.setText(getString(R.string.help));break;
             case R.id.presschange:messageItem.setText("开发中...");
